@@ -3,6 +3,9 @@ $(function(){
         $('#popup').fadeOut(200);
     });
     $('.gnb-btn').click(function(){
-        $('.gnb').css('transform','translateX(-100%)')
+        $('.gnb').fadeIn(300);
+    });
+    $('.btn-close').click(function(){
+        $('.gnb').fadeOut(300);
     });
 });
